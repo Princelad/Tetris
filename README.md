@@ -50,6 +50,11 @@ Contributions are welcome! If you want to contribute:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Author
+
+- **Prince Lad** - [Princelad](https://github.com/Princelad)  
+  Prince is a software developer with a passion for creating engaging and educational software projects. This Tetris clone was developed as part of a personal project to deepen understanding of game development principles using Java.
+
 ## Acknowledgments
 
 - **Alexey Pajitnov:** Creator of the original Tetris game.
