@@ -1,16 +1,14 @@
 # Tetris
 
-This is a Java-based clone of the classic arcade game Tetris, developed using Java Swing for the graphical user
-interface. The game follows the traditional Tetris mechanics, where blocks fall, and the player rotates and moves them
-to create complete lines.
+This project is a Java-based clone of the classic arcade game Tetris, developed with Java Swing for the graphical user interface. It faithfully replicates the traditional Tetris gameplay, where players rotate and maneuver falling blocks to complete lines and score points.
 
 ## Features
 
-- **Classic Gameplay:** Recreate the nostalgic Tetris experience with falling tetrominoes.
-- **Scoring and Levels:** Track your score and progress through increasingly difficult levels.
-- **Customizable Key Bindings:** Modify the control scheme to your liking.
-- **Simple GUI:** Built with Java Swing for a clean and responsive interface.
-- **Pause/Resume Functionality:** Pause the game and resume later.
+- **Classic Gameplay:** Enjoy the timeless Tetris experience with authentic falling tetrominoes.
+- **Scoring and Levels:** Track your progress as you advance through increasingly challenging levels.
+- **Customizable Key Bindings:** Tailor the controls to fit your preferences.
+- **Simple GUI:** Built with Java Swing for a clean, responsive interface.
+- **Pause/Resume Functionality:** Easily pause and resume your game at any time.
 
 ## Installation
 
@@ -21,10 +19,10 @@ to create complete lines.
    ```
 
 2. **Build the Project:**
-   Use your preferred Java IDE to open and build the project using the provided source files.
+   Open the project in your preferred Java IDE and build it using the provided source files.
 
 3. **Run the Game:**
-   Execute the main class (`Tetris.java`) to start playing the game.
+   Execute the main class (`Tetris.java`) to start playing.
 
 ## Controls
 
@@ -36,32 +34,28 @@ to create complete lines.
 
 ## How It Works
 
-The game uses a simple state machine to manage gameplay, including block generation, movement, collision detection, and
-line clearing. The Swing library is used to render the game window and handle user inputs. The main loop updates the
-game state based on player actions and automatically drops the tetrominoes over time.
+The game operates on a simple state machine that manages gameplay elements like block generation, movement, collision detection, and line clearing. The Java Swing library handles the rendering of the game window and user input. The main loop updates the game state based on player actions and automatically drops tetrominoes over time.
 
 ## Contributing
 
-Contributions are welcome! If you want to contribute:
+Contributions are welcome! To contribute:
 
 1. Fork the repository.
 2. Create a new branch.
 3. Implement your feature or bug fix.
-4. Submit a pull request with a clear description of the changes.
+4. Submit a pull request with a clear description of your changes.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Author
 
 - **Prince Lad** - [Princelad](https://github.com/Princelad)  
-  Prince is a software developer with a passion for creating engaging and educational software projects. This Tetris
-  clone was developed as part of a personal project to deepen understanding of game development principles using Java.
+  Prince is a software developer with a passion for creating engaging and educational software projects. This Tetris clone was developed as a personal project to explore and understand game development principles in Java.
 
 ## Acknowledgments
 
 - **Alexey Pajitnov:** Creator of the original Tetris game.
 - **Java Swing Community:** For their contributions to the graphical interface.
-- **Video Tutorial:** Special thanks to the tutorial [on YouTube](https://www.youtube.com/watch?v=N1ktYfszqnM&t=2365s)
-  that inspired and guided the development of this project.
+- **Video Tutorial:** Special thanks to the [YouTube tutorial](https://www.youtube.com/watch?v=N1ktYfszqnM&t=2365s) that inspired and guided the development of this project.
