@@ -30,8 +30,7 @@ This is a Java-based clone of the classic arcade game Tetris, developed using Ja
 - **Move Right:** `Right Arrow`
 - **Rotate:** `Up Arrow`
 - **Soft Drop:** `Down Arrow`
-- **Hard Drop:** `Spacebar`
-- **Pause/Resume:** `P` Key
+- **Pause/Resume:** `Esc` Key
 
 ## How It Works
 
