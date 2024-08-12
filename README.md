@@ -2,6 +2,8 @@
 
 This project is a Java-based clone of the classic arcade game Tetris, developed with Java Swing for the graphical user interface. It faithfully replicates the traditional Tetris gameplay, where players rotate and maneuver falling blocks to complete lines and score points.
 
+![Tetris Game Screenshot](https://github.com/Princelad/Tetris/screenshots/java_axZM457T6d.png)
+
 ## Features
 
 - **Classic Gameplay:** Enjoy the timeless Tetris experience with authentic falling tetrominoes.
