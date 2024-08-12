@@ -4,11 +4,11 @@ import java.awt.*;
 
 public class Mino_L2 extends Mino {
 
-    public Mino_L2 () {
+    public Mino_L2() {
         create(Color.BLUE);
     }
 
-    public void setXY (int x, int y) {
+    public void setXY(int x, int y) {
         //     o
         //     o
         //  o  o

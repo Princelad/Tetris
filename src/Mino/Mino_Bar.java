@@ -2,12 +2,12 @@ package Mino;
 
 import java.awt.*;
 
-public class Mino_Bar extends Mino{
+public class Mino_Bar extends Mino {
     public Mino_Bar() {
         create(Color.cyan);
     }
 
-    public void setXY(int x, int y){
+    public void setXY(int x, int y) {
         //
         //  o  o  o  o
         //
@@ -36,6 +36,7 @@ public class Mino_Bar extends Mino{
 
         updateXY(1);
     }
+
     public void getDirection2() {
         //     o
         //     o
@@ -52,9 +53,11 @@ public class Mino_Bar extends Mino{
 
         updateXY(2);
     }
+
     public void getDirection3() {
         getDirection1();
     }
+
     public void getDirection4() {
         getDirection2();
     }

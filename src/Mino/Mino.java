@@ -126,7 +126,7 @@ public class Mino {
         }
     }
 
-    private void checkStaticBlockCollision () {
+    private void checkStaticBlockCollision() {
         for (int i = 0; i < playManager.staticBlocks.size(); i++) {
 
             int targetX = playManager.staticBlocks.get(i).x;
@@ -160,7 +160,7 @@ public class Mino {
 
     public void update() {
 
-        if(deactivating) {
+        if (deactivating) {
             deactivating();
         }
 
@@ -216,7 +216,7 @@ public class Mino {
             keyHandler.rightPressed = false;
         }
 
-        if(bottomCollision){
+        if (bottomCollision) {
             if (!deactivating) {
                 gamePanel.se.play(4, false);
             }
@@ -238,12 +238,12 @@ public class Mino {
         deactivateCounter++;
 
         // Waiting for 45 frames for deactivation
-        if(deactivateCounter == 45) {
+        if (deactivateCounter == 45) {
             deactivateCounter = 0;
             checkMovementCollision(); // then checking for collision
 
             // If still colliding then deactivate.
-            if(bottomCollision){
+            if (bottomCollision) {
                 active = false;
             }
         }

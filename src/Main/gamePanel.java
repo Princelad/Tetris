@@ -45,14 +45,14 @@ public class gamePanel extends JPanel implements Runnable {
         long lastTime = System.nanoTime();
         long currentTime;
 
-        while(gameThread != null) {
+        while (gameThread != null) {
 
             currentTime = System.nanoTime();
 
             delta += (currentTime - lastTime) / drawInterval;
             lastTime = currentTime;
 
-            if(delta >= 1) {
+            if (delta >= 1) {
                 update();
                 repaint();
                 delta--;
@@ -61,8 +61,8 @@ public class gamePanel extends JPanel implements Runnable {
 
     }
 
-    private void update () {
-        if(!keyHandler.pausePressed && !pm.gameOver) {
+    private void update() {
+        if (!keyHandler.pausePressed && !pm.gameOver) {
             pm.update();
         }
     }

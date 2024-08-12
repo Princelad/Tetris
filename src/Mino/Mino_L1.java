@@ -38,6 +38,7 @@ public class Mino_L1 extends Mino {
 
         updateXY(1);
     }
+
     public void getDirection2() {
         //
         //  o  o  o
@@ -53,6 +54,7 @@ public class Mino_L1 extends Mino {
 
         updateXY(2);
     }
+
     public void getDirection3() {
         //  o  o
         //     o
@@ -68,6 +70,7 @@ public class Mino_L1 extends Mino {
 
         updateXY(3);
     }
+
     public void getDirection4() {
         //        o
         //  o  o  o

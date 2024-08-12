@@ -54,7 +54,7 @@ public class Mino_Z1 extends Mino {
     }
 
     public void getDirection3() {
-       getDirection1();
+        getDirection1();
     }
 
     public void getDirection4() {

@@ -1,6 +1,8 @@
 # Tetris
 
-This is a Java-based clone of the classic arcade game Tetris, developed using Java Swing for the graphical user interface. The game follows the traditional Tetris mechanics, where blocks fall, and the player rotates and moves them to create complete lines.
+This is a Java-based clone of the classic arcade game Tetris, developed using Java Swing for the graphical user
+interface. The game follows the traditional Tetris mechanics, where blocks fall, and the player rotates and moves them
+to create complete lines.
 
 ## Features
 
@@ -34,7 +36,9 @@ This is a Java-based clone of the classic arcade game Tetris, developed using Ja
 
 ## How It Works
 
-The game uses a simple state machine to manage gameplay, including block generation, movement, collision detection, and line clearing. The Swing library is used to render the game window and handle user inputs. The main loop updates the game state based on player actions and automatically drops the tetrominoes over time.
+The game uses a simple state machine to manage gameplay, including block generation, movement, collision detection, and
+line clearing. The Swing library is used to render the game window and handle user inputs. The main loop updates the
+game state based on player actions and automatically drops the tetrominoes over time.
 
 ## Contributing
 
@@ -52,10 +56,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Author
 
 - **Prince Lad** - [Princelad](https://github.com/Princelad)  
-  Prince is a software developer with a passion for creating engaging and educational software projects. This Tetris clone was developed as part of a personal project to deepen understanding of game development principles using Java.
+  Prince is a software developer with a passion for creating engaging and educational software projects. This Tetris
+  clone was developed as part of a personal project to deepen understanding of game development principles using Java.
 
 ## Acknowledgments
 
 - **Alexey Pajitnov:** Creator of the original Tetris game.
 - **Java Swing Community:** For their contributions to the graphical interface.
-- **Video Tutorial:** Special thanks to the tutorial [on YouTube](https://www.youtube.com/watch?v=N1ktYfszqnM&t=2365s) that inspired and guided the development of this project.
+- **Video Tutorial:** Special thanks to the tutorial [on YouTube](https://www.youtube.com/watch?v=N1ktYfszqnM&t=2365s)
+  that inspired and guided the development of this project.
