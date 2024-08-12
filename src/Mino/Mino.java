@@ -74,18 +74,21 @@ public class Mino {
         for (Block value : block) {
             if (value.x == playManager.left_x) {
                 leftCollision = true;
+                break;
             }
         }
         // right wall
         for (Block value : block) {
             if (value.x + Block.SIZE == playManager.right_x) {
                 rightCollision = true;
+                break;
             }
         }
         // bottom wall
         for (Block value : block) {
             if (value.y + Block.SIZE == playManager.bottom_y) {
                 bottomCollision = true;
+                break;
             }
         }
     }
@@ -104,18 +107,21 @@ public class Mino {
         for (Block value : tempBlock) {
             if (value.x < playManager.left_x) {
                 leftCollision = true;
+                break;
             }
         }
         // right wall
         for (Block value : tempBlock) {
             if (value.x + Block.SIZE > playManager.right_x) {
                 rightCollision = true;
+                break;
             }
         }
         // bottom wall
         for (Block value : tempBlock) {
             if (value.y + Block.SIZE > playManager.bottom_y) {
                 bottomCollision = true;
+                break;
             }
         }
     }
@@ -128,8 +134,9 @@ public class Mino {
 
             // check for bottom
             for (Block value : block) {
-                if (value.x== targetX && value.y + Block.SIZE == targetY) {
+                if (value.x == targetX && value.y + Block.SIZE == targetY) {
                     bottomCollision = true;
+                    break;
                 }
             }
 
@@ -137,6 +144,7 @@ public class Mino {
             for (Block value : block) {
                 if (value.x - Block.SIZE == targetX && value.y == targetY) {
                     leftCollision = true;
+                    break;
                 }
             }
 
@@ -144,6 +152,7 @@ public class Mino {
             for (Block value : block) {
                 if (value.x + Block.SIZE == targetX && value.y == targetY) {
                     rightCollision = true;
+                    break;
                 }
             }
         }

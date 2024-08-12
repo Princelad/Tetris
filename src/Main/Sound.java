@@ -12,7 +12,7 @@ public class Sound {
         // Using relative paths for the sound files
         files[0] = new File("sounds/white-labyrinth-active.wav");
         files[1] = new File("sounds/delete line.wav");
-        files[2] = new File("sounds/gameover.wav");
+        files[2] = new File("sounds/game over.wav");
         files[3] = new File("sounds/rotation.wav");
         files[4] = new File("sounds/touch floor.wav");
     }
@@ -32,12 +32,9 @@ public class Sound {
                 }
 
                 clip.open(ais);
-                clip.addLineListener(new LineListener() {
-                    @Override
-                    public void update(LineEvent event) {
-                        if (event.getType() == LineEvent.Type.STOP) {
-                            clip.close();
-                        }
+                clip.addLineListener(event -> {
+                    if (event.getType() == LineEvent.Type.STOP) {
+                        clip.close();
                     }
                 });
                 clip.start();

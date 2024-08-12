@@ -21,8 +21,8 @@ public class playManager {
     final int MINO_START_X;
     final int MINO_START_Y;
     Mino nextMino;
-    final int NEXTMINO_X;
-    final int NEXTMINO_Y;
+    final int NEXT_MINO_X;
+    final int NEXT_MINO_Y;
     public static ArrayList<Block> staticBlocks = new ArrayList<>();
 
     // Others
@@ -50,14 +50,14 @@ public class playManager {
         MINO_START_X = left_x + (WIDTH / 2) - Block.SIZE;
         MINO_START_Y = top_y + Block.SIZE;
 
-        NEXTMINO_X = right_x + 175;
-        NEXTMINO_Y = top_y + 500;
+        NEXT_MINO_X = right_x + 175;
+        NEXT_MINO_Y = top_y + 500;
 
         // Set the starting Mino
         currentMino = pickMino();
         currentMino.setXY(MINO_START_X, MINO_START_Y);
         nextMino = pickMino();
-        nextMino.setXY(NEXTMINO_X, NEXTMINO_Y);
+        nextMino.setXY(NEXT_MINO_X, NEXT_MINO_Y);
 
     }
 
@@ -104,7 +104,7 @@ public class playManager {
             currentMino = nextMino;
             currentMino.setXY(MINO_START_X, MINO_START_Y);
             nextMino = pickMino();
-            nextMino.setXY(NEXTMINO_X, NEXTMINO_Y);
+            nextMino.setXY(NEXT_MINO_X, NEXT_MINO_Y);
 
             // When minos are inactive, check if line can be deleted.
             checkDelete();
