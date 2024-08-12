@@ -24,7 +24,7 @@ This project is a Java-based clone of the classic arcade game Tetris, developed 
    Open the project in your preferred Java IDE and build it using the provided source files.
 
 3. **Run the Game:**
-   Execute the main class (`Tetris.java`) to start playing.
+   Execute the main class (`Main.java`) to start playing.
 
 ## Controls
 
