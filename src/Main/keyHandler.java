@@ -27,6 +27,12 @@ public class keyHandler implements KeyListener {
             rightPressed = true;
         }
         if (key == KeyEvent.VK_ESCAPE) {
+            if(pausePressed){
+                gamePanel.music.play(0,true);
+                gamePanel.music.loop();
+            }else {
+                gamePanel.music.stop();
+            }
             pausePressed = !pausePressed;
         }
     }

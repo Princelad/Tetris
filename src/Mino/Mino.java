@@ -1,5 +1,6 @@
 package Mino;
 
+import Main.gamePanel;
 import Main.keyHandler;
 import Main.playManager;
 
@@ -164,6 +165,8 @@ public class Mino {
             }
 
             keyHandler.upPressed = false;
+
+            gamePanel.se.play(3, false);
         }
 
         checkMovementCollision();
@@ -205,6 +208,9 @@ public class Mino {
         }
 
         if(bottomCollision){
+            if (!deactivating) {
+                gamePanel.se.play(4, false);
+            }
             deactivating = true;
         } else {
             autoDropCounter++; // The counter increases every 60 frames
