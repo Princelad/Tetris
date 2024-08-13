@@ -9,7 +9,6 @@ This project is a Java-based clone of the classic arcade game Tetris, developed 
 
 - **Classic Gameplay:** Enjoy the timeless Tetris experience with authentic falling tetrominoes.
 - **Scoring and Levels:** Track your progress as you advance through increasingly challenging levels.
-- **Customizable Key Bindings:** Tailor the controls to fit your preferences.
 - **Simple GUI:** Built with Java Swing for a clean, responsive interface.
 - **Pause/Resume Functionality:** Easily pause and resume your game at any time.
 
